@@ -2,3 +2,4 @@ Pandas
 Pytorch
 Torch
 Torch-geometric
+deepchem
