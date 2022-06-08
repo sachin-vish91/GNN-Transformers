@@ -32,7 +32,7 @@ params = {
 }
 
 
-def train(train_loader,train_dataset, num_epochs):
+def train(model,train_loader,train_dataset, optimizer,loss_fn,num_epochs):
 
     num_examples = len(train_dataset)
 
@@ -94,7 +94,7 @@ def main():
     loss_fn = torch.nn.MSELoss()
 
     ### Train GNN transformer model
-    model = train(train_loader,train_dataset, num_epochs=50)
+    model = train(model,train_loader,train_dataset,optimizer,loss_fn, num_epochs=50)
 
     ## load test data for the prediction
     test_dataset = MoleculeDataset(root="data/", filename="test_set_data.csv", test=True)
