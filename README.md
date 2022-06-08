@@ -1,2 +1,5 @@
-# GraphSCREEN
-Graph neural network for phenotypic virtual screening on cancer cell line libraries
+# Graph Neural Network
+Graph neural network for phenotypic virtual screening.
+repository can be downloaded and run using follwing command.
+
+python train.py
