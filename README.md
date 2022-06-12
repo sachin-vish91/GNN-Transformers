@@ -1,6 +1,7 @@
 # Graph Neural Network
 
 Some part of the code kept private because paper is not published yet, for example real data and model validation strategies.
+Once the paper is out we will share the entire project for public.
 
 **GNN model**
 
