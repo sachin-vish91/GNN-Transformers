@@ -22,6 +22,6 @@ Once the loss is calculated it is backpropagated using the backward() function t
 
 **Run model**
 
-repository can be downloaded and run using follwing command.
+Repository can be downloaded and run using following command.
 
 python train.py
