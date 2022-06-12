@@ -1,4 +1,7 @@
 # Graph Neural Network
+
+Some part of the code kept private because paper is not published yet.
+
 **GNN model**
 
 GNN model consists of graph transformer layer then linear transformation applied on the output and at the end batch normalisation. I have stacked these layers several times and applied TopK pooling to reduce the size of the graph. The intermediate embedding after each pooling step is aggregated into a global graph representation.
